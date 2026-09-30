@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aroma Café Blanes · Cafetería, bar y restaurante · Passeig de Dintre</title>
+<meta name="description" content="Aroma Café, Passeig de Dintre 4, Blanes. Café, desayunos, bocatas, tapas, platos, pastelería casera y cócteles en terraza. Todos los días de 8:30 a 23:00. 972 74 66 43.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,400;0,8..30,700;0,8..30,900;1,8..30,400;1,8..30,700&family=Sofia+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="nav__logo" href="#top">Aroma <i>café</i></a>
+  <nav class="nav__links" aria-label="Principal"><a href="#bastidor">La carta</a><a href="#pared">Fotos</a><a href="#opiniones">Opiniones</a><a href="#visita">Visítanos</a></nav>
+  <a class="nav__cta" href="tel:+34972746643">972 74 66 43</a>
+</header>
+
+<main id="top">
+
+<!-- ===== HERO: el nombre se borda solo ===== -->
+<section class="hero">
+  <div class="hero__txt">
+    <p class="kicker">Cafetería · bar · restaurante · Blanes</p>
+    <h1 class="sr">Aroma Café Blanes</h1>
+    <div class="stitchword"><canvas id="word" aria-hidden="true"></canvas><span class="needle" id="needle" aria-hidden="true"></span></div>
+    <p class="hero__lead">Del primer café de la mañana al último cóctel de la noche, en pleno Passeig de Dintre y a un paso del mar. Hecho con cariño, puntada a puntada.</p>
+    <div class="hero__row">
+      <a class="btn" href="#bastidor">Ver la carta</a>
+      <a class="btn btn--ghost" href="tel:+34972746643">Llamar</a>
+      <span class="rate"><b>4,6★</b> · 546 opiniones en Google</span>
+    </div>
+    <p class="hello" aria-live="off"><span id="hello">Bienvenidos</span></p>
+  </div>
+  <div class="hero__hoop">
+    <div class="hoop hoop--xl"><img src="assets/maps/g05.jpg" alt="Terraza de Aroma Café en el Passeig de Dintre"><span class="hoop__clasp"></span></div>
+    <p class="hero__open"><b>Todos los días</b> 8:30 – 23:00</p>
+  </div>
+</section>
+
+<div class="ie" aria-hidden="true"></div>
+
+<!-- ===== INTRO ===== -->
+<section class="intro">
+  <div class="intro__txt">
+    <p class="kicker">Un sitio para quedarse</p>
+    <h2 class="big">Mesas al sol,<br><i>sillas de terciopelo</i><br>y buen café</h2>
+    <p>Barra de cerámica ondulada, sillas mostaza y verde botella, mármol y flores. Aroma es ese café de la calle de dentro de Blanes donde desayunas sin prisa, vuelves a por unas tapas y te quedas a la puesta de sol con un mojito de fresa.</p>
+  </div>
+  <div class="intro__hoops">
+    <div class="hoop hoop--m" data-swing><img src="assets/maps/g03.jpg" alt="Interior de Aroma Café con la barra y las sillas" loading="lazy"><span class="hoop__clasp"></span></div>
+    <div class="hoop hoop--s" data-swing><img src="assets/maps/g07.jpg" alt="Cappuccino con latte art" loading="lazy"><span class="hoop__clasp"></span></div>
+    <div class="hoop hoop--s2" data-swing><img src="assets/ig/p10.jpg" alt="Mojito de fresa y cerveza Chouffe" loading="lazy"><span class="hoop__clasp"></span></div>
+  </div>
+</section>
+
+<!-- ===== EL BASTIDOR ===== -->
+<section class="frame" id="bastidor">
+  <header class="head">
+    <p class="kicker">La carta, bordada</p>
+    <h2 class="big">Elige un hilo.<br><i>Lo bordamos al momento.</i></h2>
+  </header>
+  <div class="frame__grid">
+    <div class="motifs" id="motifs" role="tablist" aria-label="Partes de la carta"></div>
+    <div class="frame__hoop">
+      <div class="bighoop"><canvas id="hoop" aria-hidden="true"></canvas><span class="needle needle--big" id="needle2" aria-hidden="true"></span><span class="hoop__clasp"></span></div>
+    </div>
+    <article class="dish" aria-live="polite">
+      <div class="hoop hoop--dish"><img id="dImg" alt=""><span class="hoop__clasp"></span></div>
+      <p class="kicker" id="dKick"></p>
+      <h3 id="dTitle"></h3>
+      <p id="dText"></p>
+    </article>
+  </div>
+  <p class="frame__note">Pregunta por la carta del día y los precios en barra o por teléfono.</p>
+</section>
+
+<div class="ie" aria-hidden="true"></div>
+
+<!-- ===== PARED DE BASTIDORES ===== -->
+<section class="wall" id="pared">
+  <header class="head head--c">
+    <p class="kicker">Nuestra pared</p>
+    <h2 class="big">Momentos <i>enmarcados</i></h2>
+  </header>
+  <div class="wall__rope" id="wall"></div>
+  <div class="wall__rope" id="wall2"></div>
+</section>
+
+<!-- ===== OPINIONES ===== -->
+<section class="revs" id="opiniones">
+  <header class="head head--c">
+    <p class="kicker">4,6★ · 546 opiniones en Google</p>
+    <h2 class="big">Lo que dicen <i>de Aroma</i></h2>
+  </header>
+  <div class="revs__grid">
+    <blockquote class="sampler">«Excelente servicio! Excelente café! La pastelería estaba muy buena y en general los platos tenían una muy buena pinta. Todo se veía fresco, el ambiente y el local estaban súper limpios y ordenados. […]»<cite>Diannis · Google ★★★★★</cite></blockquote>
+    <blockquote class="sampler">«Que lugar tan acogedor, la comida espectacular, deliciosa, riquísima. La atención de las chicas ni hablar, súper atentas y amables […] Súper súper recomendado en Blanes. 100/10»<cite>Lina Marcela · Google ★★★★★</cite></blockquote>
+    <blockquote class="sampler">«Muy lindo sitio con mesas al aire libre. […] Excelente calidad-precio. Muy buena y amable la atención!»<cite>Daiana · Google ★★★★★</cite></blockquote>
+    <blockquote class="sampler sampler--s">«También pedimos un sandwich de lomo/bacon/queso y era super grande.»<cite>Reseña en Google</cite></blockquote>
+    <blockquote class="sampler sampler--s">«Un lugar tranquilo, la comida deliciosa el pulpo y calamar recomendado.»<cite>Reseña en Google</cite></blockquote>
+    <blockquote class="sampler sampler--s">«Los camareros muy atentos y buen café.»<cite>Reseña en Google</cite></blockquote>
+  </div>
+</section>
+
+<!-- ===== VISITA ===== -->
+<section class="visit" id="visita">
+  <div class="visit__txt">
+    <p class="kicker">Ven a vernos</p>
+    <h2 class="big">Passeig de Dintre, 4<br><i>Blanes</i></h2>
+    <ul class="visit__list">
+      <li><b>Horario</b> Todos los días de 8:30 a 23:00</li>
+      <li><b>Teléfono</b> <a href="tel:+34972746643">972 74 66 43</a></li>
+      <li><b>Terraza</b> Mesas al aire libre en la calle peatonal</li>
+    </ul>
+    <div class="hero__row">
+      <a class="btn" href="https://www.google.com/maps/search/?api=1&query=Aroma+caf%C3%A9+Blanes+Passeig+de+Dintre+4" target="_blank" rel="noopener">Cómo llegar</a>
+      <a class="btn btn--ghost" href="https://www.instagram.com/aroma_cafe_blanes/" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+  <div class="visit__hoop">
+    <div class="hoop hoop--l" data-swing><img src="assets/maps/g01.jpg" alt="Fachada de Aroma Café con su toldo verde" loading="lazy"><span class="hoop__clasp"></span></div>
+    <ul class="langs" aria-label="Bienvenida en varios idiomas"><li>Bienvenidos</li><li>Benvinguts</li><li>Bienvenue</li><li>Welcome</li><li>Bine ați venit</li></ul>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="ie ie--thin" aria-hidden="true"></div>
+  <p><b>Aroma Café Blanes</b> · Passeig de Dintre, 4 · 17300 Blanes</p>
+  <p class="foot__ro">Cusut cu drag · <span>hecho con cariño</span></p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
