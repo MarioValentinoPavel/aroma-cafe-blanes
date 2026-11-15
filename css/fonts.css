@@ -1,0 +1,29 @@
+/* Tipografías alojadas en la propia web (Fontshare, ITF Free Font License). Sin peticiones a terceros. */
+@font-face {
+  font-family: "Melodrama";
+  src: url("../assets/fonts/melodrama-var.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Recia";
+  src: url("../assets/fonts/recia-var.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Recia";
+  src: url("../assets/fonts/recia-var-italic.woff2") format("woff2");
+  font-weight: 300 700;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Synonym";
+  src: url("../assets/fonts/synonym-var.woff2") format("woff2");
+  font-weight: 200 700;
+  font-style: normal;
+  font-display: swap;
+}

@@ -2,190 +2,409 @@
 <html lang="es">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Aroma Café Blanes · Café, cocina y coctelería · Passeig de Dintre</title>
-<meta name="description" content="Aroma Café, Passeig de Dintre 4, Blanes. Café, desayunos, tapas, platos, pastelería casera y cócteles en terraza. Todos los días de 8:30 a 23:00. 972 74 66 43.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Libre+Caslon+Text:ital@1&family=Tenor+Sans&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aroma Café · Cafetería, bar y restaurante en el centro de Blanes</title>
+<meta name="description" content="Aroma Café, en el Passeig de Dintre, 4, en el centro de Blanes. Café Segafredo, desayunos, bocadillos, tapas, postres y cócteles, con terraza en la calle peatonal. Teléfono 972 74 66 43.">
+<meta name="theme-color" content="#0e2a20">
+<link rel="canonical" href="https://mariovalentinopavel.github.io/aroma-cafe-blanes/">
+<link rel="alternate" hreflang="es" href="https://mariovalentinopavel.github.io/aroma-cafe-blanes/?lang=es">
+<link rel="alternate" hreflang="ca" href="https://mariovalentinopavel.github.io/aroma-cafe-blanes/?lang=ca">
+<link rel="alternate" hreflang="en" href="https://mariovalentinopavel.github.io/aroma-cafe-blanes/?lang=en">
+<link rel="alternate" hreflang="fr" href="https://mariovalentinopavel.github.io/aroma-cafe-blanes/?lang=fr">
+<link rel="alternate" hreflang="ro" href="https://mariovalentinopavel.github.io/aroma-cafe-blanes/?lang=ro">
+<link rel="alternate" hreflang="x-default" href="https://mariovalentinopavel.github.io/aroma-cafe-blanes/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Aroma Café Blanes">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Aroma Café · Cafetería, bar y restaurante en Blanes">
+<meta property="og:description" content="Desayunos, bocadillos, tapas, dulces y cócteles en el Passeig de Dintre, 4, con terraza en la calle peatonal.">
+<meta property="og:url" content="https://mariovalentinopavel.github.io/aroma-cafe-blanes/">
+<meta property="og:image" content="https://mariovalentinopavel.github.io/aroma-cafe-blanes/assets/share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="La fachada de Aroma Café de noche, en el Passeig de Dintre de Blanes">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/melodrama-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/synonym-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/recia-var-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" media="(orientation: landscape), (min-width: 1024px)" imagesrcset="assets/img/hero-noche-1280.webp 1280w, assets/img/hero-noche-1920.webp 1920w, assets/img/hero-noche-2560.webp 2560w" imagesizes="100vw">
+<link rel="preload" as="image" type="image/webp" media="(orientation: portrait) and (max-width: 1023px)" imagesrcset="assets/img/hero-dia-720.webp 720w, assets/img/hero-dia-1080.webp 1080w" imagesizes="100vw">
+<script>(function(h){h.classList.add('js');var rm=false;try{rm=matchMedia('(prefers-reduced-motion: reduce)').matches}catch(e){}h.classList.add(rm?'rm':'anim');setTimeout(function(){h.classList.add('ready')},4000)})(document.documentElement)</script>
+<link rel="stylesheet" href="css/fonts.css?v=4">
+<link rel="stylesheet" href="css/style.css?v=4">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CafeOrCoffeeShop",
+  "name": "Aroma Café Blanes",
+  "description": "Cafetería, bar y restaurante con terraza en el Passeig de Dintre, la calle peatonal del centro de Blanes.",
+  "url": "https://mariovalentinopavel.github.io/aroma-cafe-blanes/",
+  "image": "https://mariovalentinopavel.github.io/aroma-cafe-blanes/assets/share.jpg",
+  "telephone": "+34 972 74 66 43",
+  "servesCuisine": ["Desayunos", "Bocadillos", "Tapas", "Postres", "Cócteles"],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Passeig de Dintre, 4",
+    "postalCode": "17300",
+    "addressLocality": "Blanes",
+    "addressRegion": "Girona",
+    "addressCountry": "ES"
+  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 41.6731067, "longitude": 2.7910103 },
+  "hasMap": "https://www.google.com/maps?cid=16147034185483989814",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Thursday", "Friday", "Sunday"], "opens": "09:00", "closes": "18:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "23:00" }
+  ],
+  "amenityFeature": [
+    { "@type": "LocationFeatureSpecification", "name": "Terraza", "value": true },
+    { "@type": "LocationFeatureSpecification", "name": "Accesible en silla de ruedas", "value": true }
+  ],
+  "sameAs": ["https://www.instagram.com/aroma_cafe_blanes/", "https://www.google.com/maps?cid=16147034185483989814"]
+}
+</script>
 </head>
 <body>
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 3.5h2.6l1.4 4.3-1.9 1.4a11.5 11.5 0 0 0 6.1 6.1l1.4-1.9 4.3 1.4v2.6a2 2 0 0 1-2.2 2A16.6 16.6 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="9.8" r="2.3" fill="none" stroke="currentColor" stroke-width="1.5"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-out" viewBox="0 0 24 24"><path d="M8 16 16 8m-6.5 0H16v6.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-star" viewBox="0 0 24 24"><path d="M12 2.8l2.8 6 6.5.75-4.8 4.45 1.27 6.42L12 17.2l-5.77 3.22 1.27-6.42-4.8-4.45 6.5-.75L12 2.8Z" fill="currentColor"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="17.3" cy="6.7" r="1.05" fill="currentColor"/></symbol>
+  <symbol id="i-chev" viewBox="0 0 24 24"><path d="m6.5 9.5 5.5 5.5 5.5-5.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-access" viewBox="0 0 24 24"><circle cx="12" cy="4.6" r="1.7" fill="currentColor"/><path d="M9.2 8.6h5.6M12 8.6v5.4h4.3l2 5M9.4 11.4a5.3 5.3 0 1 0 6.9 6.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
 
-<div class="curtain" aria-hidden="true">
-  <canvas class="curtain__steam"></canvas>
-  <p class="curtain__word"><span>A</span><span>r</span><span>o</span><span>m</span><span>a</span></p>
-  <p class="curtain__sub">Blanes · desde las 8:30</p>
-</div>
+<a class="skip" href="#main" data-i18n="skip">Saltar al contenido</a>
 
-<div class="cursor" aria-hidden="true"><span>Ver</span></div>
-
-<header class="nav">
-  <a class="nav__logo" href="#top">Aroma</a>
-  <nav class="nav__links" aria-label="Principal"><a href="#carta">La carta</a><a href="#casa">La casa</a><a href="#opiniones">Opiniones</a><a href="#visita">Visítanos</a></nav>
-  <a class="nav__cta" href="tel:+34972746643">Reservar</a>
+<header class="top" data-top>
+  <div class="top-in">
+    <nav class="top-nav" aria-label="Principal" data-i18n-attr="aria-label:navL">
+      <a href="#carta" data-nav="carta" data-i18n="nCarta">La carta</a>
+      <a href="#local" data-nav="local" data-i18n="nLocal">El local</a>
+      <a href="#opiniones" data-nav="opiniones" data-i18n="nOpin">Opiniones</a>
+    </nav>
+    <a class="brand" href="#inicio" aria-label="Aroma Café, inicio" data-i18n-attr="aria-label:homeL"><span class="brand-w">Aroma</span><span class="brand-r" aria-hidden="true"></span><span class="brand-w">Café</span></a>
+    <div class="top-act">
+      <a class="top-link" href="#visita" data-nav="visita" data-i18n="nVisita">Visítanos</a>
+      <div class="lang" data-lang-menu>
+        <button type="button" class="lang-btn" aria-expanded="false" aria-controls="lang-list" aria-label="Idioma" data-i18n-attr="aria-label:langL"><span data-lang-cur>ES</span><svg aria-hidden="true"><use href="#i-chev"/></svg></button>
+        <ul class="lang-list" id="lang-list" hidden>
+          <li><button type="button" data-lang="es" lang="es">Español</button></li>
+          <li><button type="button" data-lang="ca" lang="ca">Català</button></li>
+          <li><button type="button" data-lang="en" lang="en">English</button></li>
+          <li><button type="button" data-lang="fr" lang="fr">Français</button></li>
+          <li><button type="button" data-lang="ro" lang="ro">Română</button></li>
+        </ul>
+      </div>
+      <a class="btn btn-line btn-sm top-call" href="tel:+34972746643"><svg aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="call">Llamar</span></a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu"><span class="menu-i" aria-hidden="true"><i></i><i></i></span><span class="sr" data-i18n="menu">Menú</span></button>
+    </div>
+  </div>
 </header>
 
-<main id="top">
+<div class="menu" id="menu" hidden>
+  <nav class="menu-nav" aria-label="Menú" data-i18n-attr="aria-label:menu">
+    <a href="#carta" data-i18n="nCarta">La carta</a>
+    <a href="#local" data-i18n="nLocal">El local</a>
+    <a href="#opiniones" data-i18n="nOpin">Opiniones</a>
+    <a href="#visita" data-i18n="nVisita">Visítanos</a>
+  </nav>
+  <div class="menu-foot">
+    <p class="now now-l" data-now><i aria-hidden="true"></i><span data-now-txt>Horario de hoy</span></p>
+    <div class="langs" role="group" aria-label="Idioma" data-i18n-attr="aria-label:langL">
+      <button type="button" data-lang="es" lang="es" aria-label="Español">ES</button><button type="button" data-lang="ca" lang="ca" aria-label="Català">CA</button><button type="button" data-lang="en" lang="en" aria-label="English">EN</button><button type="button" data-lang="fr" lang="fr" aria-label="Français">FR</button><button type="button" data-lang="ro" lang="ro" aria-label="Română">RO</button>
+    </div>
+    <a class="btn btn-brass" href="tel:+34972746643"><svg aria-hidden="true"><use href="#i-phone"/></svg>972 74 66 43</a>
+  </div>
+</div>
 
-<!-- ===== HERO ===== -->
-<section class="hero">
-  <picture class="hero__media">
-    <source media="(max-width:760px)" srcset="assets/maps/g08.jpg">
-    <img src="assets/maps/g03.jpg" alt="Interior de Aroma Café: barra, sillas de terciopelo y mesas de mármol">
-  </picture>
-  <canvas class="hero__steam" aria-hidden="true"></canvas>
-  <div class="hero__txt">
-    <p class="eyebrow">Café · Cocina · Coctelería</p>
-    <h1 class="hero__title"><span class="w">Aroma</span></h1>
-    <p class="hero__sub">Passeig de Dintre, 4 — Blanes</p>
-    <div class="hero__row">
-      <a class="btn btn--light" href="#carta">Descubrir la carta</a>
-      <a class="btn btn--line" href="tel:+34972746643">972 74 66 43</a>
+<main id="main">
+
+<!-- ===================== PORTADA ===================== -->
+<section class="hero" id="inicio" aria-labelledby="hero-h">
+  <div class="hero-media">
+    <picture>
+      <source media="(orientation: portrait) and (max-width: 1023px)" type="image/webp" srcset="assets/img/hero-dia-720.webp 720w, assets/img/hero-dia-1080.webp 1080w" sizes="100vw">
+      <img src="assets/img/hero-noche-1920.webp" srcset="assets/img/hero-noche-1280.webp 1280w, assets/img/hero-noche-1920.webp 1920w, assets/img/hero-noche-2560.webp 2560w" sizes="100vw" width="1920" height="1080" fetchpriority="high" decoding="async" alt="La fachada de Aroma Café en el Passeig de Dintre, con su toldo verde y el salón iluminado" data-i18n-attr="alt:heroAlt">
+    </picture>
+  </div>
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="hero-in">
+    <h1 class="hero-h" id="hero-h">
+      <span class="hero-brand" data-split>Aroma Café</span>
+      <span class="hero-sub" data-i18n="hSub">Cafetería, bar y restaurante en el centro de Blanes</span>
+    </h1>
+    <div class="hero-cta">
+      <a class="btn btn-brass" href="#carta"><span data-i18n="hCta">Ver la carta</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      <a class="btn btn-line-l" href="tel:+34972746643"><svg aria-hidden="true"><use href="#i-phone"/></svg><span>972 74 66 43</span></a>
     </div>
   </div>
-  <div class="hero__foot">
-    <p>Todos los días<br><b>8:30 — 23:00</b></p>
-    <p class="hero__scroll">Desliza</p>
-    <p>Google<br><b>4,6 ★ · 546 opiniones</b></p>
+  <ul class="hero-facts">
+    <li class="hf-addr"><svg aria-hidden="true"><use href="#i-pin"/></svg><span>Passeig de Dintre, 4 · Blanes</span></li>
+    <li class="hf-now"><span class="now" data-now><i aria-hidden="true"></i><span data-now-txt>Horario de hoy</span></span></li>
+    <li class="hf-rate"><b>4,6</b><svg aria-hidden="true"><use href="#i-star"/></svg><span data-i18n="hRate">556 opiniones en Google</span></li>
+  </ul>
+</section>
+
+<!-- ===================== BIENVENIDA ===================== -->
+<section class="intro" id="bienvenida" aria-labelledby="intro-h">
+  <div class="wrap">
+    <h2 class="sr" id="intro-h" data-i18n="introH">Bienvenidos a Aroma Café</h2>
+    <span class="rule" aria-hidden="true"></span>
+    <figure class="motto">
+      <blockquote lang="es"><p class="motto-t" data-words>Lo mejor de la vida no se planea, simplemente sucede.</p></blockquote>
+      <figcaption data-i18n="mottoCap">Escrito en la pared de nuestro salón</figcaption>
+    </figure>
+    <p class="intro-p" data-i18n="introP">Aroma es una cafetería, bar y restaurante en el Passeig de Dintre, la calle peatonal del centro de Blanes, a un paso de la playa. Dentro, sillones de terciopelo, mesas de mármol y una barra dorada; fuera, la terraza. Para desayunar, comer, merendar o tomar algo.</p>
+    <ul class="facts">
+      <li><b data-i18n="f1b">Café Segafredo</b><span data-i18n="f1s">Con leche o capuchino, con su dibujo</span></li>
+      <li><b data-i18n="f2b">Terraza en la calle</b><span data-i18n="f2s">En pleno paseo peatonal</span></li>
+      <li><b data-i18n="f3b">Accesible</b><span data-i18n="f3s">Entrada, sala y aseo para silla de ruedas</span></li>
+    </ul>
   </div>
 </section>
 
-<!-- ===== MANIFIESTO ===== -->
-<section class="manifest">
-  <p class="eyebrow">La casa</p>
-  <p class="manifest__t" id="manifest">Hay lugares que se recuerdan por cómo huelen. Café recién hecho por la mañana, pan tostado, el mar a un paso y, cuando cae la tarde, un mojito de fresa en la terraza. Eso es Aroma.</p>
-</section>
-
-<!-- ===== LA CARTA COMO UN PERFUME ===== -->
-<section class="notes" id="carta">
-  <div class="notes__pin">
-    <div class="notes__bottle">
-      <svg viewBox="0 0 300 470" class="flacon" aria-hidden="true">
-        <defs>
-          <clipPath id="inner"><rect x="44" y="114" width="212" height="322" rx="26"/></clipPath>
-          <filter id="glass" x="-10%" y="-10%" width="120%" height="120%">
-            <feTurbulence type="fractalNoise" baseFrequency="0.012 0.028" numOctaves="2" seed="4" result="n"/>
-            <feDisplacementMap id="disp" in="SourceGraphic" in2="n" scale="14" xChannelSelector="R" yChannelSelector="G"/>
-          </filter>
-          <linearGradient id="gl" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity=".38"/><stop offset=".18" stop-color="#fff" stop-opacity=".05"/><stop offset=".75" stop-color="#fff" stop-opacity="0"/><stop offset="1" stop-color="#fff" stop-opacity=".22"/></linearGradient>
-          <linearGradient id="cap" x1="0" x2="1"><stop offset="0" stop-color="#050807"/><stop offset=".35" stop-color="#2c3a34"/><stop offset=".55" stop-color="#0b1511"/><stop offset="1" stop-color="#050807"/></linearGradient>
-          <linearGradient id="liq" x1="0" y1="0" x2="0" y2="1"><stop offset="0" style="stop-color:var(--liq-a)"/><stop offset="1" style="stop-color:var(--liq-b)"/></linearGradient>
-        </defs>
-        <g clip-path="url(#inner)">
-          <g filter="url(#glass)">
-            <image class="flacon__img is-on" href="assets/maps/g07.jpg" x="20" y="100" width="260" height="350" preserveAspectRatio="xMidYMid slice"/>
-            <image class="flacon__img" href="assets/ig/p12.jpg" x="20" y="100" width="260" height="350" preserveAspectRatio="xMidYMid slice"/>
-            <image class="flacon__img" href="assets/maps/g04.jpg" x="20" y="100" width="260" height="350" preserveAspectRatio="xMidYMid slice"/>
-          </g>
-          <path class="flacon__liq" d="M20 470 L20 0 Q80 -10 150 0 T280 0 L280 470Z" fill="url(#liq)"/>
-        </g>
-        <rect x="30" y="100" width="240" height="350" rx="36" fill="url(#gl)" stroke="rgba(255,255,255,.55)" stroke-width="2"/>
-        <rect x="54" y="128" width="12" height="290" rx="6" fill="#fff" opacity=".22"/>
-        <rect x="236" y="150" width="5" height="200" rx="3" fill="#fff" opacity=".18"/>
-        <rect x="80" y="318" width="140" height="92" rx="4" fill="#f4efe6" opacity=".94"/>
-        <text x="150" y="352" class="lab lab--big">AROMA</text>
-        <text x="150" y="372" class="lab">EAU DE CAFÉ · BLANES</text>
-        <text x="150" y="394" class="lab lab--n" id="labN">Nº 1 · SALIDA</text>
-        <rect x="124" y="78" width="52" height="26" rx="4" fill="#cfd6d2" opacity=".7"/>
-        <rect x="100" y="6" width="100" height="76" rx="8" fill="url(#cap)"/>
-        <rect x="112" y="14" width="6" height="60" rx="3" fill="#fff" opacity=".16"/>
-      </svg>
-      <canvas class="mist" aria-hidden="true"></canvas>
-      <button class="spray" type="button" id="spray">Pulverizar</button>
-    </div>
-
-    <div class="notes__txt">
-      <p class="eyebrow">La carta, como un perfume</p>
-      <h2 class="h2">Tres notas.<br><i>Un mismo aroma.</i></h2>
-      <ol class="tiers" id="tiers">
-        <li><button type="button" data-i="0" class="is-on"><span class="tiers__n">I</span><span class="tiers__k">Notas de salida</span><span class="tiers__d">Lo primero que notas al entrar</span></button></li>
-        <li><button type="button" data-i="1"><span class="tiers__n">II</span><span class="tiers__k">Notas de corazón</span><span class="tiers__d">Lo que hace que te quedes</span></button></li>
-        <li><button type="button" data-i="2"><span class="tiers__n">III</span><span class="tiers__k">Notas de fondo</span><span class="tiers__d">Lo que te llevas en la memoria</span></button></li>
-      </ol>
-      <div class="accords" aria-live="polite">
-        <ul class="accord is-on" data-i="0"><li>Café Segafredo recién hecho</li><li>Cappuccino con dibujo de leche</li><li>Tostadas y pan con tomate y jamón</li><li>Croissants y bocadillos</li><li>Chocolate</li></ul>
-        <ul class="accord" data-i="1"><li>Pulpo a la gallega</li><li>Calamares y mejillones</li><li>Sándwiches bien cargados</li><li>Escalope con patatas y ensalada</li><li>Carne y pasta</li></ul>
-        <ul class="accord" data-i="2"><li>Carrot cake y mousse de chocolate</li><li>Brownie con nata y copas de helado</li><li>Mojito de fresa</li><li>Cerveza Chouffe y Estrella Galicia 1906</li><li>Vinos y cócteles</li></ul>
-      </div>
-      <p class="notes__note">Carta del día y precios en barra o por teléfono.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ===== LA CASA ===== -->
-<section class="house" id="casa">
-  <figure class="house__a reveal-img" data-cursor><img src="assets/maps/g08.jpg" alt="Salón de Aroma Café con sillas de terciopelo y flores" loading="lazy"></figure>
-  <div class="house__txt">
-    <p class="eyebrow">Interior</p>
-    <h2 class="h2">Terciopelo,<br><i>mármol y luz.</i></h2>
-    <p>Sillas de terciopelo mostaza y verde, mesas de mármol, flores frescas y una barra ondulada que invita a quedarse un rato más. Limpio, tranquilo y cuidado hasta el último detalle.</p>
-  </div>
-  <figure class="house__b reveal-img" data-cursor><img src="assets/maps/g01.jpg" alt="Fachada de Aroma Café con su toldo verde" loading="lazy"><figcaption>La fachada · Passeig de Dintre, 4</figcaption></figure>
-  <figure class="house__c reveal-img" data-cursor><img src="assets/maps/g05.jpg" alt="Terraza de Aroma Café en la calle peatonal" loading="lazy"><figcaption>La terraza, en la calle peatonal</figcaption></figure>
-  <div class="house__txt house__txt--2">
-    <p class="eyebrow">Terraza</p>
-    <h2 class="h2">Al sol,<br><i>a un paso del mar.</i></h2>
-    <p>Mesas al aire libre en pleno Passeig de Dintre, la calle de dentro de Blanes. Para el primer café, para el vermut o para alargar la tarde.</p>
-  </div>
-</section>
-
-<!-- ===== DE LA COCINA ===== -->
-<section class="plates">
-  <header class="plates__head">
-    <p class="eyebrow">De la cocina</p>
-    <h2 class="h2">Hecho aquí,<br><i>servido con calma.</i></h2>
+<!-- ===================== LA CARTA (momento: capítulos fijos) ===================== -->
+<section class="carta" id="carta" aria-labelledby="carta-h">
+  <header class="carta-head wrap">
+    <h2 id="carta-h" data-i18n="cartaH">La carta</h2>
+    <p data-i18n="cartaP">Del primer café de la mañana a la última copa de la noche.</p>
   </header>
-  <div class="plates__grid">
-    <figure data-cursor><div class="ph"><img src="assets/maps/g10.jpg" alt="Tostada de salmón y aguacate" loading="lazy"></div><figcaption><span>01</span>Desayunos salados</figcaption></figure>
-    <figure data-cursor><div class="ph"><img src="assets/ig/p12.jpg" alt="Pulpo a la gallega" loading="lazy"></div><figcaption><span>02</span>Pop a la gallega</figcaption></figure>
-    <figure data-cursor><div class="ph"><img src="assets/maps/g11.jpg" alt="Escalope con patatas y ensalada" loading="lazy"></div><figcaption><span>03</span>Platos</figcaption></figure>
-    <figure data-cursor><div class="ph"><img src="assets/maps/g06.jpg" alt="Tarta casera" loading="lazy"></div><figcaption><span>04</span>Pastelería casera</figcaption></figure>
+
+  <div class="chapters" data-chapters>
+    <div class="ch-stage">
+      <article class="ch" id="ch-desayunos" aria-labelledby="c1-h" data-ch>
+        <figure class="ch-ph ch-ph-a"><img src="assets/img/carta-cafe-640.webp" srcset="assets/img/carta-cafe-640.webp 640w, assets/img/carta-cafe-1000.webp 1000w" sizes="(min-width: 1024px) 27vw, 50vw" width="1000" height="1250" loading="lazy" decoding="async" alt="Café con leche con un corazón dibujado en la espuma, sobre una mesa de mármol" data-i18n-attr="alt:a1a"></figure>
+        <div class="ch-txt">
+          <h3 class="ch-h" id="c1-h" data-i18n="c1h">Desayunos</h3>
+          <p class="ch-sub" data-i18n="c1s">Desde las 9:00, con café Segafredo</p>
+          <ul class="ch-list">
+            <li><span data-i18n="c1i1">Cruasán y café</span><b class="pr">3,90 €</b></li>
+            <li><span data-i18n="c1i2">Bocadillo mini y café</span><b class="pr">4,90 €</b></li>
+            <li><span data-i18n="c1i3">Tostada con aguacate y huevo revuelto, y café</span><b class="pr">8,90 €</b></li>
+            <li><span data-i18n="c1i4">Tostada de salmón ahumado, huevo revuelto y aguacate</span></li>
+            <li><span data-i18n="c1i5">Pan con tomate y jamón</span></li>
+            <li><span data-i18n="c1i6">Bocadillos y sándwiches, como el bikini o el de lomo, bacon y queso</span></li>
+          </ul>
+        </div>
+        <figure class="ch-ph ch-ph-b"><img src="assets/img/carta-tostada-640.webp" srcset="assets/img/carta-tostada-640.webp 640w, assets/img/carta-tostada-1000.webp 1000w" sizes="(min-width: 1024px) 27vw, 50vw" width="1000" height="1250" loading="lazy" decoding="async" alt="Tostada de salmón ahumado con huevo revuelto y aguacate, con cafés en la terraza" data-i18n-attr="alt:a1b"></figure>
+      </article>
+
+      <article class="ch" id="ch-comer" aria-labelledby="c2-h" data-ch>
+        <figure class="ch-ph ch-ph-a"><img src="assets/img/carta-pulpo-640.webp" srcset="assets/img/carta-pulpo-640.webp 640w, assets/img/carta-pulpo-1000.webp 1000w" sizes="(min-width: 1024px) 27vw, 50vw" width="1000" height="1250" loading="lazy" decoding="async" alt="Pulpo a la gallega con pimentón y aceite de oliva" data-i18n-attr="alt:a2a"></figure>
+        <div class="ch-txt">
+          <h3 class="ch-h" id="c2-h" data-i18n="c2h">Comidas</h3>
+          <p class="ch-sub" data-i18n="c2s">Platos combinados, tapas y raciones</p>
+          <ul class="ch-list">
+            <li><span data-i18n="c2i1">Escalopa de pollo con patatas y ensalada</span></li>
+            <li><span data-i18n="c2i2">Butifarra con judías, pan con tomate y alioli</span></li>
+            <li><span data-i18n="c2i3">Huevos rotos con jamón ibérico</span></li>
+            <li><span data-i18n="c2i4">Pulpo a la gallega</span></li>
+            <li><span data-i18n="c2i5">Calamares</span></li>
+            <li><span data-i18n="c2i6">Tapas y raciones para compartir</span></li>
+          </ul>
+        </div>
+        <figure class="ch-ph ch-ph-b"><img src="assets/img/carta-escalopa-640.webp" srcset="assets/img/carta-escalopa-640.webp 640w, assets/img/carta-escalopa-1000.webp 1000w" sizes="(min-width: 1024px) 27vw, 50vw" width="1000" height="1250" loading="lazy" decoding="async" alt="Escalopa de pollo con patatas fritas y ensalada en una mesa de mármol" data-i18n-attr="alt:a2b"></figure>
+      </article>
+
+      <article class="ch" id="ch-dulces" aria-labelledby="c3-h" data-ch>
+        <figure class="ch-ph ch-ph-a"><img src="assets/img/carta-dulces-640.webp" srcset="assets/img/carta-dulces-640.webp 640w, assets/img/carta-dulces-1000.webp 1000w" sizes="(min-width: 1024px) 27vw, 50vw" width="1000" height="1250" loading="lazy" decoding="async" alt="Copa de fresas con nata y coulant de chocolate con nata y helado de vainilla" data-i18n-attr="alt:a3a"></figure>
+        <div class="ch-txt">
+          <h3 class="ch-h" id="c3-h" data-i18n="c3h">Dulces</h3>
+          <p class="ch-sub" data-i18n="c3s">Para merendar o de postre</p>
+          <ul class="ch-list">
+            <li><span data-i18n="c3i1">Copa de fresas con nata</span></li>
+            <li><span data-i18n="c3i2">Coulant de chocolate con nata y helado</span></li>
+            <li><span data-i18n="c3i3">Tarta de queso con frutos rojos</span></li>
+            <li><span data-i18n="c3i4">Carrot cake</span></li>
+            <li><span data-i18n="c3i5">Pastelería para acompañar el café</span></li>
+          </ul>
+        </div>
+        <figure class="ch-ph ch-ph-b"><img src="assets/img/carta-tarta-640.webp" srcset="assets/img/carta-tarta-640.webp 640w, assets/img/carta-tarta-1000.webp 1000w" sizes="(min-width: 1024px) 27vw, 50vw" width="1000" height="1250" loading="lazy" decoding="async" alt="Porciones de tarta de queso con frutos rojos y nata" data-i18n-attr="alt:a3b"></figure>
+      </article>
+
+      <article class="ch" id="ch-copas" aria-labelledby="c4-h" data-ch>
+        <figure class="ch-ph ch-ph-a"><img src="assets/img/carta-mojito-640.webp" srcset="assets/img/carta-mojito-640.webp 640w, assets/img/carta-mojito-1000.webp 1000w" sizes="(min-width: 1024px) 27vw, 50vw" width="1000" height="1250" loading="lazy" decoding="async" alt="Mojito de fresa y una copa de cerveza La Chouffe" data-i18n-attr="alt:a4a"></figure>
+        <div class="ch-txt">
+          <h3 class="ch-h" id="c4-h" data-i18n="c4h">Copas</h3>
+          <p class="ch-sub" data-i18n="c4s">Cócteles y cervezas. Los sábados, hasta las 23:00</p>
+          <ul class="ch-list">
+            <li><span data-i18n="c4i1">Mojito de fresa</span></li>
+            <li><span data-i18n="c4i2">Sangría</span></li>
+            <li><span data-i18n="c4i3">Estrella Galicia 1906 Reserva Especial, de barril</span></li>
+            <li><span data-i18n="c4i4">La Chouffe</span></li>
+            <li><span data-i18n="c4i5">Cócteles</span></li>
+          </ul>
+        </div>
+        <figure class="ch-ph ch-ph-b"><img src="assets/img/carta-1906-640.webp" srcset="assets/img/carta-1906-640.webp 640w, assets/img/carta-1906-1000.webp 1000w" sizes="(min-width: 1024px) 27vw, 50vw" width="1000" height="1250" loading="lazy" decoding="async" alt="El grifo de Estrella Galicia 1906 Reserva Especial en la barra" data-i18n-attr="alt:a4b"></figure>
+      </article>
+    </div>
+
+    <nav class="ch-index" aria-label="Partes de la carta" data-i18n-attr="aria-label:chNavL">
+      <a href="#ch-desayunos" data-i18n="c1h">Desayunos</a>
+      <a href="#ch-comer" data-i18n="c2h">Comidas</a>
+      <a href="#ch-dulces" data-i18n="c3h">Dulces</a>
+      <a href="#ch-copas" data-i18n="c4h">Copas</a>
+      <span class="ch-bar" aria-hidden="true"><i></i></span>
+    </nav>
+  </div>
+
+  <div class="carta-foot wrap">
+    <p data-i18n="cartaNote">Los precios de los desayunos son los de la pizarra de la entrada. La carta completa, con todos los precios, está en el local. ¿Alergias o intolerancias? Pregúntanos.</p>
+    <a class="lnk" href="tel:+34972746643"><svg aria-hidden="true"><use href="#i-phone"/></svg>972 74 66 43</a>
   </div>
 </section>
 
-<!-- ===== OPINIONES ===== -->
-<section class="quotes" id="opiniones">
-  <p class="eyebrow">4,6 ★ · 546 opiniones en Google</p>
-  <div class="quotes__stage" id="quotes">
-    <blockquote class="is-on">«Que lugar tan acogedor, la comida espectacular, deliciosa, riquísima. La atención de las chicas ni hablar, súper atentas y amables […] 100/10»<cite>Lina Marcela · Google</cite></blockquote>
-    <blockquote>«Excelente servicio! Excelente café! La pastelería estaba muy buena […] Todo se veía fresco, el ambiente y el local estaban súper limpios y ordenados.»<cite>Diannis · Google</cite></blockquote>
-    <blockquote>«Muy lindo sitio con mesas al aire libre. […] Excelente calidad-precio. Muy buena y amable la atención!»<cite>Daiana · Google</cite></blockquote>
-    <blockquote>«Un lugar tranquilo, la comida deliciosa el pulpo y calamar recomendado.»<cite>Reseña en Google</cite></blockquote>
-    <blockquote>«Los camareros muy atentos y buen café.»<cite>Reseña en Google</cite></blockquote>
-    <blockquote>«También pedimos un sandwich de lomo/bacon/queso y era super grande.»<cite>Reseña en Google</cite></blockquote>
+<!-- ===================== EL LOCAL ===================== -->
+<section class="local" id="local" aria-labelledby="local-h">
+  <div class="wrap">
+    <header class="sec-head">
+      <h2 id="local-h" data-i18n="localH">El local</h2>
+      <p data-i18n="localP">Sillones de terciopelo, mesas de mármol con canto dorado y una barra dorada. Un sitio tranquilo para quedarse, dentro o en la terraza.</p>
+    </header>
+    <div class="trio">
+      <figure class="trio-ph trio-a"><img src="assets/img/local-barra-700.webp" srcset="assets/img/local-barra-700.webp 700w, assets/img/local-barra-1000.webp 1000w" sizes="(min-width: 1024px) 26vw, (min-width: 640px) 31vw, 100vw" width="1000" height="1250" loading="lazy" decoding="async" alt="La barra dorada de Aroma Café con taburetes de terciopelo verde" data-i18n-attr="alt:l1a"></figure>
+      <figure class="trio-ph trio-b"><img src="assets/img/local-salon-1200.webp" srcset="assets/img/local-salon-800.webp 800w, assets/img/local-salon-1200.webp 1200w, assets/img/local-salon-1800.webp 1800w" sizes="(min-width: 1024px) 40vw, (min-width: 640px) 38vw, 100vw" width="1800" height="1200" loading="lazy" decoding="async" alt="El salón, con sillones de terciopelo mostaza y verde, mesas de mármol y la barra al fondo" data-i18n-attr="alt:l2a"></figure>
+      <figure class="trio-ph trio-c"><img src="assets/img/local-terraza-700.webp" srcset="assets/img/local-terraza-700.webp 700w, assets/img/local-terraza-1000.webp 1000w" sizes="(min-width: 1024px) 26vw, (min-width: 640px) 31vw, 100vw" width="1000" height="1250" loading="lazy" decoding="async" alt="La terraza llena de gente bajo el toldo verde de Aroma Café" data-i18n-attr="alt:l3a"></figure>
+    </div>
+    <ul class="trio-txt">
+      <li><h3 data-i18n="l1h">La barra</h3><p data-i18n="l1p">Dorada, con taburetes de terciopelo verde. Para un café rápido o una 1906 de barril.</p></li>
+      <li><h3 data-i18n="l2h">El salón</h3><p data-i18n="l2p">Sillones de terciopelo y mesas de mármol, para desayunar sin prisa o comer con calma.</p></li>
+      <li><h3 data-i18n="l3h">La terraza</h3><p data-i18n="l3p">En plena calle peatonal del Passeig de Dintre, a un paso de la playa.</p></li>
+    </ul>
   </div>
-  <div class="quotes__dots" id="qdots" role="tablist" aria-label="Opiniones"></div>
 </section>
 
-<!-- ===== VISITA ===== -->
-<section class="visit" id="visita">
-  <div class="visit__grid">
-    <div>
-      <p class="eyebrow">Visítanos</p>
-      <h2 class="h2">Passeig de Dintre, 4<br><i>Blanes</i></h2>
+<!-- ===================== OPINIONES ===================== -->
+<section class="opin" id="opiniones" aria-labelledby="opin-h">
+  <div class="wrap">
+    <header class="sec-head">
+      <h2 id="opin-h" data-i18n="opinH">Lo que dicen de nosotros</h2>
+    </header>
+    <div class="score">
+      <p class="score-n">4,6</p>
+      <div class="score-r">
+        <p class="stars" role="img" aria-label="4,6 de 5 estrellas" data-i18n-attr="aria-label:starsL"><span class="stars-off"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span><span class="stars-on"><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg><svg><use href="#i-star"/></svg></span></p>
+        <p class="score-c" data-i18n="opinN">556 opiniones en Google</p>
+      </div>
     </div>
-    <dl class="visit__info">
-      <div><dt>Horario</dt><dd>Todos los días<br>8:30 — 23:00</dd></div>
-      <div><dt>Reservas</dt><dd><a href="tel:+34972746643">972 74 66 43</a></dd></div>
-      <div><dt>Síguenos</dt><dd><a href="https://www.instagram.com/aroma_cafe_blanes/" target="_blank" rel="noopener">@aroma_cafe_blanes</a></dd></div>
-    </dl>
-    <div class="visit__cta">
-      <a class="btn btn--light" href="https://www.google.com/maps/search/?api=1&query=Aroma+caf%C3%A9+Blanes+Passeig+de+Dintre+4" target="_blank" rel="noopener">Cómo llegar</a>
-      <a class="btn btn--line" href="tel:+34972746643">Llamar</a>
+    <div class="quotes">
+      <figure class="q">
+        <blockquote lang="es"><p>«Vinimos de casualidad y salimos queriendo volver! Generosas raciones, sabores wooow, mucho detalle en la atención por parte de Irina, sirviendo siempre con una sonrisa.»</p></blockquote>
+        <p class="q-tr" data-i18n="q1t"></p>
+        <figcaption><b>Andrea</b><span data-i18n="qSrc">Reseña en Google</span></figcaption>
+      </figure>
+      <figure class="q">
+        <blockquote lang="es"><p>«Excelente servicio! Excelente café! La pastelería estaba muy buena […] Todo se veía fresco, el ambiente y el local estaban súper limpios y ordenados.»</p></blockquote>
+        <p class="q-tr" data-i18n="q2t"></p>
+        <figcaption><b>Diannis</b><span data-i18n="qSrc">Reseña en Google</span></figcaption>
+      </figure>
+      <figure class="q">
+        <blockquote lang="es"><p>«Espléndida relación calidad-precio, fantástico ambiente. Y sobre todo por la humanidad y la atención tan cariñosa que se respira en este café-restaurante […]»</p></blockquote>
+        <p class="q-tr" data-i18n="q3t"></p>
+        <figcaption><b>Kristin S.</b><span data-i18n="qSrc">Reseña en Google</span></figcaption>
+      </figure>
     </div>
+    <p class="opin-more"><a class="lnk" href="https://www.google.com/maps?cid=16147034185483989814" target="_blank" rel="noopener"><span data-i18n="opinMore">Leer todas las opiniones en Google</span><svg aria-hidden="true"><use href="#i-out"/></svg></a></p>
   </div>
-  <div class="hello" aria-label="Bienvenidos en varios idiomas"><div class="hello__track" id="hello"></div></div>
+</section>
+
+<!-- ===================== VISÍTANOS ===================== -->
+<section class="visita" id="visita" aria-labelledby="visita-h">
+  <div class="wrap visita-grid">
+    <div class="visita-txt">
+      <h2 id="visita-h" data-i18n="visitaH">Visítanos</h2>
+      <p class="addr"><a href="https://www.google.com/maps/search/?api=1&amp;query=Aroma%20caf%C3%A9%20Blanes%2C%20Passeig%20de%20Dintre%204%2C%2017300%20Blanes" target="_blank" rel="noopener">Passeig de Dintre, 4</a></p>
+      <p class="addr-sub" data-i18n="addrSub">17300 Blanes (Girona). En la calle peatonal del centro, a un paso de la playa.</p>
+      <p class="now now-d" data-now><i aria-hidden="true"></i><span data-now-txt>Horario de hoy</span></p>
+      <div class="hours">
+        <h3 class="hours-h" data-i18n="hoursH">Horario</h3>
+        <table class="hours-t" data-hours>
+          <tbody>
+            <tr data-day="1"><th scope="row">Lunes</th><td>9:00 – 18:00</td></tr>
+            <tr data-day="2"><th scope="row">Martes</th><td>9:00 – 18:00</td></tr>
+            <tr data-day="3"><th scope="row">Miércoles</th><td>Cerrado</td></tr>
+            <tr data-day="4"><th scope="row">Jueves</th><td>9:00 – 18:00</td></tr>
+            <tr data-day="5"><th scope="row">Viernes</th><td>9:00 – 18:00</td></tr>
+            <tr data-day="6"><th scope="row">Sábado</th><td>9:00 – 23:00</td></tr>
+            <tr data-day="0"><th scope="row">Domingo</th><td>9:00 – 18:00</td></tr>
+          </tbody>
+        </table>
+        <p class="hours-note" data-i18n="hoursNote">Horario actual. En festivos y en temporada alta puede cambiar.</p>
+      </div>
+      <dl class="info">
+        <div><dt data-i18n="vTel">Teléfono</dt><dd><a href="tel:+34972746643">972 74 66 43</a><span data-i18n="vTelP">¿Venís en grupo? Llámanos antes.</span></dd></div>
+        <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/aroma_cafe_blanes/" target="_blank" rel="noopener">@aroma_cafe_blanes</a></dd></div>
+        <div><dt data-i18n="vAcc">Accesibilidad</dt><dd data-i18n="vAccP">Entrada, sala y aseo accesibles en silla de ruedas.</dd></div>
+      </dl>
+      <div class="btns">
+        <a class="btn btn-em" href="https://www.google.com/maps/dir/?api=1&amp;destination=Aroma%20caf%C3%A9%20Blanes%2C%20Passeig%20de%20Dintre%204%2C%2017300%20Blanes" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="vGo">Cómo llegar</span></a>
+        <a class="btn btn-line" href="tel:+34972746643"><svg aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="call">Llamar</span></a>
+      </div>
+    </div>
+    <figure class="visita-ph">
+      <picture>
+        <source media="(max-width: 1023px)" type="image/webp" srcset="assets/img/visita-noche-700.webp 700w, assets/img/visita-noche-1000.webp 1000w" sizes="100vw">
+        <img src="assets/img/visita-fachada-700.webp" srcset="assets/img/visita-fachada-700.webp 700w, assets/img/visita-fachada-1000.webp 1000w" sizes="44vw" width="1000" height="1250" loading="lazy" decoding="async" alt="La fachada de Aroma Café, con el toldo verde y la terraza" data-i18n-attr="alt:vAlt">
+      </picture>
+    </figure>
+  </div>
+  <div class="wrap">
+    <div class="cc-map map" data-src="https://www.google.com/maps?q=Aroma%20caf%C3%A9%20Blanes%2C%20Passeig%20de%20Dintre%204%2C%2017300%20Blanes&amp;output=embed" data-title="Mapa: Aroma Café, Passeig de Dintre 4, Blanes"></div>
+  </div>
 </section>
 </main>
 
+<!-- ===================== PIE ===================== -->
 <footer class="foot">
-  <p class="foot__logo">Aroma</p>
-  <p>Café · Cocina · Coctelería — Passeig de Dintre, 4 · 17300 Blanes</p>
+  <div class="wrap">
+    <p class="foot-brand" aria-hidden="true">Aroma Café</p>
+    <p class="foot-hi">Bienvenidos · Benvinguts · Welcome · Bienvenue · <span lang="ro">Bine ați venit</span></p>
+    <div class="foot-cols">
+      <div>
+        <h2 class="foot-h" data-i18n="fAddr">Dirección</h2>
+        <p><a href="https://www.google.com/maps/search/?api=1&amp;query=Aroma%20caf%C3%A9%20Blanes%2C%20Passeig%20de%20Dintre%204%2C%2017300%20Blanes" target="_blank" rel="noopener">Passeig de Dintre, 4<br>17300 Blanes (Girona)</a></p>
+      </div>
+      <div>
+        <h2 class="foot-h" data-i18n="hoursH">Horario</h2>
+        <p data-i18n="fHours">Lunes, martes, jueves, viernes y domingo, de 9:00 a 18:00<br>Sábado, de 9:00 a 23:00<br>Miércoles, cerrado</p>
+      </div>
+      <div>
+        <h2 class="foot-h" data-i18n="fContact">Contacto</h2>
+        <p><a href="tel:+34972746643">972 74 66 43</a><br><a href="https://www.instagram.com/aroma_cafe_blanes/" target="_blank" rel="noopener">@aroma_cafe_blanes</a></p>
+      </div>
+    </div>
+    <div class="foot-row">
+      <div class="langs" role="group" aria-label="Idioma" data-i18n-attr="aria-label:langL">
+        <button type="button" data-lang="es" lang="es" aria-label="Español">ES</button><button type="button" data-lang="ca" lang="ca" aria-label="Català">CA</button><button type="button" data-lang="en" lang="en" aria-label="English">EN</button><button type="button" data-lang="fr" lang="fr" aria-label="Français">FR</button><button type="button" data-lang="ro" lang="ro" aria-label="Română">RO</button>
+      </div>
+      <nav class="foot-legal" aria-label="Información legal" data-i18n-attr="aria-label:legalL">
+        <a href="aviso-legal.html" data-i18n="lg1">Aviso legal</a>
+        <a href="privacidad.html" data-i18n="lg2">Privacidad</a>
+        <a href="cookies.html" data-i18n="lg3">Cookies</a>
+        <button type="button" data-cookies-open data-i18n="lg4">Configurar cookies</button>
+      </nav>
+    </div>
+    <p class="foot-credit"><span>© <span data-year>2026</span> Aroma Café Blanes.</span> <span data-i18n="credits">Fotos de Google Maps (Irina Picurici, Iuliana Tutuianu, Lenka Görögová, Kristin Schlag, DJ Myk Remix y otros autores) y del Instagram de Aroma Café.</span></p>
+  </div>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script src="js/main.js"></script>
+<nav class="bar" aria-label="Acciones rápidas" data-i18n-attr="aria-label:barL" data-bar>
+  <a class="btn btn-em" href="tel:+34972746643"><svg aria-hidden="true"><use href="#i-phone"/></svg><span data-i18n="call">Llamar</span></a>
+  <a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Aroma%20caf%C3%A9%20Blanes%2C%20Passeig%20de%20Dintre%204%2C%2017300%20Blanes" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#i-pin"/></svg><span data-i18n="vGo">Cómo llegar</span></a>
+</nav>
+
+<script src="js/data.js?v=4"></script>
+<script src="js/lang.js?v=4"></script>
+<script src="js/i18n.js?v=4" data-site="aroma-cafe-blanes"></script>
+<script src="js/consent.js?v=4" data-site="aroma-cafe-blanes"></script>
+<script src="js/vendor/gsap.min.js?v=4" defer></script>
+<script src="js/vendor/ScrollTrigger.min.js?v=4" defer></script>
+<script src="js/vendor/lenis.min.js?v=4" defer></script>
+<script src="js/main.js?v=4" defer></script>
 </body>
 </html>
